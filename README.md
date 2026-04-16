@@ -64,3 +64,9 @@ Prioridade de leitura no app:
 - **Output Directory:** `dist`
 
 O arquivo `vercel.json` já garante fallback para `index.html`, evitando erro `404/NOT_FOUND` em acesso direto a URLs da SPA.
+
+
+## Estilização
+
+Este projeto usa CSS tradicional em `src/index.css` e **não depende de Tailwind CSS**.
+Caso exista configuração legada de PostCSS/Tailwind em algum ambiente, use apenas `postcss.config.cjs` com `plugins` vazio.
