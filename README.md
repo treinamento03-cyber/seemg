@@ -6,6 +6,7 @@ Protótipo em React + Vite para o portal interno de cadastro de competências e 
 
 - `src/App.jsx`: interface principal (hero, vagas, cadastro em etapas, tabela de processos e prévia de comprovante).
 - `src/main.jsx`: entrypoint React da aplicação.
+- `src/index.css`: estilos globais institucionais e responsivos.
 - `index.html`: entry HTML com a raiz `#root`.
 - `package.json`: scripts de desenvolvimento/build e dependências.
 - `vite.config.js`: configuração do Vite.
